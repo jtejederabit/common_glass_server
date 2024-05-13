@@ -1,9 +1,436 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "customers": [
+    {
+        "id": 264625,
+        "docType": "nif",
+        "docNum": "40743837C",
+        "email": "contact@parlem.com",
+        "customerId": "71599",
+        "givenName": "Laura",
+        "familyName1": "Parlem",
+        "phone": "659863482"
+    },
+    {
+        "id": 784848,
+        "docType": "nif",
+        "docNum": "13131619B",
+        "email": "contact@parlem.com",
+        "customerId": "58697",
+        "givenName": "Laura",
+        "familyName1": "Parlem",
+        "phone": "698652754"
+    },
+    {
+        "id": 421253,
+        "docType": "nif",
+        "docNum": "55721053E",
+        "email": "support@parlem.com",
+        "customerId": "90049",
+        "givenName": "Jose",
+        "familyName1": "Parlem",
+        "phone": "680217611"
+    },
+    {
+        "id": 478970,
+        "docType": "nif",
+        "docNum": "64111198D",
+        "email": "contact@parlem.com",
+        "customerId": "66179",
+        "givenName": "Ricardo",
+        "familyName1": "Parlem",
+        "phone": "668691399"
+    },
+    {
+        "id": 864776,
+        "docType": "nif",
+        "docNum": "70745231B",
+        "email": "info@parlem.com",
+        "customerId": "98829",
+        "givenName": "Enriqueta",
+        "familyName1": "Parlem",
+        "phone": "692456242"
+    },
+    {
+        "id": 813188,
+        "docType": "nif",
+        "docNum": "23859851D",
+        "email": "info@parlem.com",
+        "customerId": "65587",
+        "givenName": "Ricardo",
+        "familyName1": "Parlem",
+        "phone": "649819118"
+    },
+    {
+        "id": 551966,
+        "docType": "nif",
+        "docNum": "23389081C",
+        "email": "support@parlem.com",
+        "customerId": "90360",
+        "givenName": "Laura",
+        "familyName1": "Parlem",
+        "phone": "621621938"
+    },
+    {
+        "id": 987712,
+        "docType": "nif",
+        "docNum": "14584313E",
+        "email": "contact@parlem.com",
+        "customerId": "50338",
+        "givenName": "Laura",
+        "familyName1": "Parlem",
+        "phone": "677206127"
+    },
+    {
+        "id": 731991,
+        "docType": "nif",
+        "docNum": "75836818E",
+        "email": "support@parlem.com",
+        "customerId": "92635",
+        "givenName": "Enriqueta",
+        "familyName1": "Parlem",
+        "phone": "691422653"
+    },
+    {
+        "id": 557738,
+        "docType": "nif",
+        "docNum": "21226119C",
+        "email": "support@parlem.com",
+        "customerId": "95141",
+        "givenName": "Ricardo",
+        "familyName1": "Parlem",
+        "phone": "660500002"
+    }
+],
+  "products": [
+    {
+        "productName": "FIBRA 1000MB",
+        "mbSpeed": 1000,
+        "gbData": null,
+        "productTypeName": "ftth",
+        "numeracioTerminal": 677541541,
+        "soldAt": "2022-10-21 07:42:07",
+        "customerId": "98829",
+        "_id": 1862728
+    },
+    {
+        "productName": "MOBIL 500GB",
+        "mbSpeed": null,
+        "gbData": 500,
+        "productTypeName": "4G",
+        "numeracioTerminal": 628281451,
+        "soldAt": "2020-03-09 16:14:01",
+        "customerId": "65587",
+        "_id": 5234900
+    },
+    {
+        "productName": "MOBIL 500GB",
+        "mbSpeed": null,
+        "gbData": 500,
+        "productTypeName": "4G",
+        "numeracioTerminal": 615473724,
+        "soldAt": "2019-02-06 01:30:13",
+        "customerId": "92635",
+        "_id": 6015011
+    },
+    {
+        "productName": "FIBRA 1000MB",
+        "mbSpeed": 1000,
+        "gbData": null,
+        "productTypeName": "ftth",
+        "numeracioTerminal": 612418842,
+        "soldAt": "2020-01-13 06:10:21",
+        "customerId": "90049",
+        "_id": 9467528
+    },
+    {
+        "productName": "MOBIL 500GB",
+        "mbSpeed": null,
+        "gbData": 500,
+        "productTypeName": "4G",
+        "numeracioTerminal": 620966043,
+        "soldAt": "2020-12-17 11:29:47",
+        "customerId": "92635",
+        "_id": 6266332
+    },
+    {
+        "productName": "FIBRA 1000MB",
+        "mbSpeed": 1000,
+        "gbData": null,
+        "productTypeName": "ftth",
+        "numeracioTerminal": 671148330,
+        "soldAt": "2023-05-01 03:29:06",
+        "customerId": "90360",
+        "_id": 6268611
+    },
+    {
+        "productName": "FIBRA 1000MB",
+        "mbSpeed": 1000,
+        "gbData": null,
+        "productTypeName": "ftth",
+        "numeracioTerminal": 657580156,
+        "soldAt": "2019-05-16 02:40:17",
+        "customerId": "65587",
+        "_id": 3250084
+    },
+    {
+        "productName": "MOBIL 500GB",
+        "mbSpeed": null,
+        "gbData": 500,
+        "productTypeName": "4G",
+        "numeracioTerminal": 603274325,
+        "soldAt": "2019-01-02 16:37:11",
+        "customerId": "50338",
+        "_id": 8878781
+    },
+    {
+        "productName": "MOBIL 500GB",
+        "mbSpeed": null,
+        "gbData": 500,
+        "productTypeName": "4G",
+        "numeracioTerminal": 695903868,
+        "soldAt": "2020-12-09 20:08:08",
+        "customerId": "65587",
+        "_id": 5088374
+    },
+    {
+        "productName": "FIBRA 1000MB",
+        "mbSpeed": 1000,
+        "gbData": null,
+        "productTypeName": "ftth",
+        "numeracioTerminal": 669776680,
+        "soldAt": "2019-12-01 00:11:04",
+        "customerId": "90049",
+        "_id": 1849484
+    },
+    {
+        "productName": "FIBRA 1000MB",
+        "mbSpeed": 1000,
+        "gbData": null,
+        "productTypeName": "ftth",
+        "numeracioTerminal": 698821808,
+        "soldAt": "2021-07-23 15:36:19",
+        "customerId": "58697",
+        "_id": 5944198
+    },
+    {
+        "productName": "MOBIL 500GB",
+        "mbSpeed": null,
+        "gbData": 500,
+        "productTypeName": "4G",
+        "numeracioTerminal": 643062326,
+        "soldAt": "2023-03-21 01:41:33",
+        "customerId": "90360",
+        "_id": 8108096
+    },
+    {
+        "productName": "MOBIL 500GB",
+        "mbSpeed": null,
+        "gbData": 500,
+        "productTypeName": "4G",
+        "numeracioTerminal": 645268912,
+        "soldAt": "2019-02-12 19:36:40",
+        "customerId": "65587",
+        "_id": 4984498
+    },
+    {
+        "productName": "MOBIL 500GB",
+        "mbSpeed": null,
+        "gbData": 500,
+        "productTypeName": "4G",
+        "numeracioTerminal": 690990957,
+        "soldAt": "2019-08-29 18:04:08",
+        "customerId": "71599",
+        "_id": 2571706
+    },
+    {
+        "productName": "FIBRA 1000MB",
+        "mbSpeed": 1000,
+        "gbData": null,
+        "productTypeName": "ftth",
+        "numeracioTerminal": 666499284,
+        "soldAt": "2019-06-15 03:53:45",
+        "customerId": "50338",
+        "_id": 1173000
+    },
+    {
+        "productName": "MOBIL 500GB",
+        "mbSpeed": null,
+        "gbData": 500,
+        "productTypeName": "4G",
+        "numeracioTerminal": 607620353,
+        "soldAt": "2023-11-28 09:47:39",
+        "customerId": "90049",
+        "_id": 5756345
+    },
+    {
+        "productName": "MOBIL 500GB",
+        "mbSpeed": null,
+        "gbData": 500,
+        "productTypeName": "4G",
+        "numeracioTerminal": 683434471,
+        "soldAt": "2021-04-02 19:19:54",
+        "customerId": "95141",
+        "_id": 5375808
+    },
+    {
+        "productName": "FIBRA 1000MB",
+        "mbSpeed": 1000,
+        "gbData": null,
+        "productTypeName": "ftth",
+        "numeracioTerminal": 613378404,
+        "soldAt": "2020-10-21 21:48:59",
+        "customerId": "95141",
+        "_id": 6063444
+    },
+    {
+        "productName": "MOBIL 500GB",
+        "mbSpeed": null,
+        "gbData": 500,
+        "productTypeName": "4G",
+        "numeracioTerminal": 652086677,
+        "soldAt": "2024-02-13 04:57:05",
+        "customerId": "71599",
+        "_id": 1222088
+    },
+    {
+        "productName": "FIBRA 1000MB",
+        "mbSpeed": 1000,
+        "gbData": null,
+        "productTypeName": "ftth",
+        "numeracioTerminal": 629773994,
+        "soldAt": "2019-07-28 16:42:07",
+        "customerId": "71599",
+        "_id": 8158358
+    },
+    {
+        "productName": "MOBIL 500GB",
+        "mbSpeed": null,
+        "gbData": 500,
+        "productTypeName": "4G",
+        "numeracioTerminal": 600310961,
+        "soldAt": "2019-10-30 09:51:07",
+        "customerId": "58697",
+        "_id": 1407504
+    },
+    {
+        "productName": "MOBIL 500GB",
+        "mbSpeed": null,
+        "gbData": 500,
+        "productTypeName": "4G",
+        "numeracioTerminal": 675223776,
+        "soldAt": "2020-03-23 22:08:34",
+        "customerId": "65587",
+        "_id": 3348735
+    },
+    {
+        "productName": "MOBIL 500GB",
+        "mbSpeed": null,
+        "gbData": 500,
+        "productTypeName": "4G",
+        "numeracioTerminal": 637980440,
+        "soldAt": "2024-04-18 09:23:53",
+        "customerId": "95141",
+        "_id": 4799101
+    },
+    {
+        "productName": "MOBIL 500GB",
+        "mbSpeed": null,
+        "gbData": 500,
+        "productTypeName": "4G",
+        "numeracioTerminal": 603144349,
+        "soldAt": "2019-04-03 14:11:04",
+        "customerId": "90360",
+        "_id": 4983159
+    },
+    {
+        "productName": "FIBRA 1000MB",
+        "mbSpeed": 1000,
+        "gbData": null,
+        "productTypeName": "ftth",
+        "numeracioTerminal": 608882510,
+        "soldAt": "2022-04-07 00:36:21",
+        "customerId": "95141",
+        "_id": 4830379
+    },
+    {
+        "productName": "MOBIL 500GB",
+        "mbSpeed": null,
+        "gbData": 500,
+        "productTypeName": "4G",
+        "numeracioTerminal": 680560334,
+        "soldAt": "2021-07-26 04:47:55",
+        "customerId": "50338",
+        "_id": 9681630
+    },
+    {
+        "productName": "MOBIL 500GB",
+        "mbSpeed": null,
+        "gbData": 500,
+        "productTypeName": "4G",
+        "numeracioTerminal": 679640776,
+        "soldAt": "2019-05-25 11:54:02",
+        "customerId": "90049",
+        "_id": 1091499
+    },
+    {
+        "productName": "FIBRA 1000MB",
+        "mbSpeed": 1000,
+        "gbData": null,
+        "productTypeName": "ftth",
+        "numeracioTerminal": 626489943,
+        "soldAt": "2022-06-17 17:20:33",
+        "customerId": "90360",
+        "_id": 5388320
+    },
+    {
+        "productName": "MOBIL 500GB",
+        "mbSpeed": null,
+        "gbData": 500,
+        "productTypeName": "4G",
+        "numeracioTerminal": 659038621,
+        "soldAt": "2022-07-06 00:41:34",
+        "customerId": "98829",
+        "_id": 4599644
+    },
+    {
+        "productName": "FIBRA 1000MB",
+        "mbSpeed": 1000,
+        "gbData": null,
+        "productTypeName": "ftth",
+        "numeracioTerminal": 683122143,
+        "soldAt": "2021-01-06 09:34:04",
+        "customerId": "90049",
+        "_id": 1237932
+    },
+    {
+        "productName": "FIBRA 1000MB",
+        "mbSpeed": 1000,
+        "gbData": null,
+        "productTypeName": "ftth",
+        "numeracioTerminal": 606624325,
+        "soldAt": "2023-11-14 23:54:58",
+        "customerId": "92635",
+        "_id": 6442367
+    },
+    {
+        "productName": "MOBIL 500GB",
+        "mbSpeed": null,
+        "gbData": 500,
+        "productTypeName": "4G",
+        "numeracioTerminal": 649126609,
+        "soldAt": "2020-02-07 15:40:16",
+        "customerId": "50338",
+        "_id": 6804767
+    },
+    {
+        "productName": "FIBRA 1000MB",
+        "mbSpeed": 1000,
+        "gbData": null,
+        "productTypeName": "ftth",
+        "numeracioTerminal": 642507441,
+        "soldAt": "2019-01-12 08:17:15",
+        "customerId": "90049",
+        "_id": 4677422
+    }
+],
 }
